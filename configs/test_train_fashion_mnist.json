@@ -1,0 +1,20 @@
+{
+    "variance_schedule": "linear",
+    "timesteps": 300,
+    "loss_type": "huber",
+    "image_size": 28,
+    "channels": 1,
+    "use_ddpm_unet": false,
+    "epochs": 10,
+    "train_batch_size": 128,
+    "learning_rate": 1e-3,
+    "use_ema": true,
+    "ema_decay": 0.9999,
+    "data_root": "data",
+    "save_samples_epochs": 10,
+    "load_from_checkpoint": null,
+    "save_checkpoint_epochs": 10,
+    "checkpoints_folder": "checkpoints/fashion_mnist/test",
+    "samples_folder": "samples/fashion_mnist/test",
+    "logdir": "runs/fashion_mnist/test"
+}

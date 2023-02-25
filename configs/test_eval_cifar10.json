@@ -1,0 +1,17 @@
+{
+    "variance_schedule": "linear",
+    "timesteps": 1000,
+    "image_size": 32,
+    "channels": 3,
+    "use_ddpm_unet": false,
+    "use_ema": true,
+    "ema_decay": 0.9999,
+    "data_root": "data",
+    "metrics": "inception_score",
+    "inception_samples": 256,
+    "eval_batch_size": 8,
+    "sample_batch_size": 256,
+    "bpd_batch_size": 256,
+    "precompute_batch_size": 8,
+    "load_from_checkpoint": "checkpoints/cifar10/test/cifar10-ckpt-10.pth"
+}
