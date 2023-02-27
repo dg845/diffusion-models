@@ -1,6 +1,8 @@
 # diffusion-models: sample implementations of diffusion models in PyTorch
 
-This repository contains sample implementations of diffusion models in PyTorch. The implementations are not production ready, and primarily focus on simplicity and ease of understanding. Sampling from the model is currently slow: on my setup with a RTX 3060, generating 10k samples for calculating FID on the CIFAR10 test set takes about an hour. 
+This repository contains sample implementations of diffusion models in PyTorch. The implementations are not production ready, and primarily focus on simplicity and ease of understanding. Sampling from the model is currently slow: on my setup with a RTX 3060, generating 10k samples for calculating FID on the CIFAR10 test set takes about an hour.
+
+An accompanying blog post can be found at [The DDPM Model](https://dg845.github.io/blog/2023/ddpm/).
 
 Currently only the [DDPM model](https://arxiv.org/pdf/2006.11239.pdf) is implemented.
 
